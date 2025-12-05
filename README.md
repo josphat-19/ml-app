@@ -1,15 +1,3 @@
-# 🤖 Machine Learning App
-
-This is a machine learning app
-
-## Demo App
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://jose-ml-app.streamlit.app/)
-
-## GitHub Codespaces
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
-
 # 🐧 Penguin Species Prediction – Streamlit Machine Learning App
 
 This project is an interactive **Streamlit web application** that predicts the **species of a penguin** using a machine-learning model trained on the **Palmer Penguins dataset**.
@@ -57,3 +45,11 @@ The app displays:
 - Highlighted predicted species
 
 ---
+
+## Demo App
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://jose-ml-app.streamlit.app/)
+
+## GitHub Codespaces
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
