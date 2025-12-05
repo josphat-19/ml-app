@@ -32,7 +32,7 @@ with st.sidebar:
 	body_mass_g = st.slider('Body mass (g)', 2700.0, 6300.0, 4207.0)
 
 with st.expander('Input features'):
-	st.write('**Input Features**')
+	st.write('**Input penguin data**')
 	# create a Dataframe for the input features
 	data = {'island': island,
 			'bill_length_mm': bill_length_mm,
@@ -42,5 +42,8 @@ with st.expander('Input features'):
 			'gender': gender}
 	input_df = pd.DataFrame(data, index=[0])
 	input_df
+	st.write('**Combined penguin data**')
+	input_penguins = pd.concat([input_df, X], axis=0)
+	imput_penguins
 
 
