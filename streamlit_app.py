@@ -32,7 +32,7 @@ with st.sidebar:
 	body_mass_g = st.slider('Body mass (g)', 2700.0, 6300.0, 4207.0)
 
 with st.expander('Input features')
-	st.write('**Input Features**)
+	st.write('**Input Features**')
 	# create a Dataframe for the input features
 	data = {'island': island,
 			'bill_length_mm': bill_length_mm,
