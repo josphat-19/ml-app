@@ -21,7 +21,7 @@ with st.expander('Data'):
 with st.expander('Data Visualization'):
 	st.scatter_chart(data=df, x='bill_length_mm', y='body_mass_g', color='species')
 
-# Data preparations
+
 with st.sidebar:
 	st.header('Input features')
 	island = st.selectbox('Island', ('Biscoe', 'Dream', 'Torgersen'))
@@ -31,6 +31,7 @@ with st.sidebar:
 	flipper_length_mm = st.slider('Flipper length (mm)', 172.0, 231.0, 201.0)
 	body_mass_g = st.slider('Body mass (g)', 2700.0, 6300.0, 4207.0)
 
+# Input data
 with st.expander('Input features'):
 	st.write('**Input penguin data**')
 	# create a Dataframe for the input features
@@ -46,6 +47,9 @@ with st.expander('Input features'):
 	input_penguins = pd.concat([input_df, X], axis=0)
 	input_penguins
 
+
+# Data preparations
+with st.expander('Data preparation')
 	# Encode X
 	st.write('**Encoded input**')
 	encode = ['island', 'sex']
@@ -62,4 +66,4 @@ with st.expander('Input features'):
 
 	y_prep = y.apply(target_encoder)
 	y_prep
-	y
+	
