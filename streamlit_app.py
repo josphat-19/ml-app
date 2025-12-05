@@ -60,6 +60,6 @@ with st.expander('Input features'):
 	def target_encoder(val):
 		return target_mapper[val]
 
-	y_prep = y.apply(target_encode)
+	y_prep = y.apply(target_encoder)
 	y_prep
 	y
