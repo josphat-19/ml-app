@@ -49,7 +49,7 @@ with st.expander('Input features'):
 
 
 # Data preparations
-with st.expander('Data preparation')
+with st.expander('Data preparation'):
 	# Encode X
 	st.write('**Encoded input**')
 	encode = ['island', 'sex']
